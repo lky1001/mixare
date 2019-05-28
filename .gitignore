@@ -241,4 +241,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+app/.idea/*
+plugins/mixare-library/.idea
 # End of https://www.gitignore.io/api/git,macos,android,androidstudio
+.idea/runConfigurations.xml
