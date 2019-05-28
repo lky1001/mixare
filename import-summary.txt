@@ -1,0 +1,58 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .externalToolBuilders/
+* .externalToolBuilders/mixare-ant-builder.launch
+* .gitignore
+* .idea/
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/mixare-library.iml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* build.xml
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => mixarelib/src/main/AndroidManifest.xml
+* lint.xml => mixarelib/lint.xml
+* src/ => mixarelib/src/main/java/
+* src/org/mixare/lib/gui/Label.aidl => mixarelib/src/main/aidl/org/mixare/lib/gui/Label.aidl
+* src/org/mixare/lib/gui/PaintScreen.aidl => mixarelib/src/main/aidl/org/mixare/lib/gui/PaintScreen.aidl
+* src/org/mixare/lib/gui/TextObj.aidl => mixarelib/src/main/aidl/org/mixare/lib/gui/TextObj.aidl
+* src/org/mixare/lib/marker/InitialMarkerData.aidl => mixarelib/src/main/aidl/org/mixare/lib/marker/InitialMarkerData.aidl
+* src/org/mixare/lib/marker/draw/ClickHandler.aidl => mixarelib/src/main/aidl/org/mixare/lib/marker/draw/ClickHandler.aidl
+* src/org/mixare/lib/marker/draw/DrawCommand.aidl => mixarelib/src/main/aidl/org/mixare/lib/marker/draw/DrawCommand.aidl
+* src/org/mixare/lib/marker/draw/ParcelableProperty.aidl => mixarelib/src/main/aidl/org/mixare/lib/marker/draw/ParcelableProperty.aidl
+* src/org/mixare/lib/marker/draw/PrimitiveProperty.aidl => mixarelib/src/main/aidl/org/mixare/lib/marker/draw/PrimitiveProperty.aidl
+* src/org/mixare/lib/render/Camera.aidl => mixarelib/src/main/aidl/org/mixare/lib/render/Camera.aidl
+* src/org/mixare/lib/render/MixVector.aidl => mixarelib/src/main/aidl/org/mixare/lib/render/MixVector.aidl
+* src/org/mixare/lib/service/IBootStrap.aidl => mixarelib/src/main/aidl/org/mixare/lib/service/IBootStrap.aidl
+* src/org/mixare/lib/service/IDataHandlerService.aidl => mixarelib/src/main/aidl/org/mixare/lib/service/IDataHandlerService.aidl
+* src/org/mixare/lib/service/IMarkerService.aidl => mixarelib/src/main/aidl/org/mixare/lib/service/IMarkerService.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

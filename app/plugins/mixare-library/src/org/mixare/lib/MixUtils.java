@@ -18,7 +18,7 @@
  */
 package org.mixare.lib;
 
-import android.util.FloatMath;
+import android.util.Math;
 
 /**
  * This class has the ability to calculate the declination of a line between two

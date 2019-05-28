@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.google.android.gms</group-id>
+        <name>play-services-maps</name>
+        <version>16.1.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test</group-id>
+        <name>runner</name>
+        <version>1.0.2</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.0.2</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1558962265105</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40b19841-627f-4b8c-9f44-5fa644e5db6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/gui/Label.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/gui/PaintScreen.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/gui/TextObj.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/InitialMarkerData.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/ClickHandler.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/DrawCommand.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/ParcelableProperty.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/PrimitiveProperty.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/render/Camera.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/render/MixVector.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/service/IBootStrap.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/service/IDataHandlerService.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/service/IMarkerService.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/HtmlUnescape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/HtmlUnescape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/MixContextInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/MixContextInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/MixStateInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/MixStateInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/MixUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/MixUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/data/PluginDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/data/PluginDataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/gui/Label.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/gui/Label.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/gui/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/gui/Label.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/gui/PaintScreen.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/gui/PaintScreen.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/gui/PaintScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/gui/PaintScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/gui/ScreenLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/gui/ScreenLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/gui/ScreenObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/gui/ScreenObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/gui/TextObj.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/gui/TextObj.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/gui/TextObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/gui/TextObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/InitialMarkerData.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/marker/InitialMarkerData.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/InitialMarkerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/InitialMarkerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/Marker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/Marker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/PluginMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/PluginMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/ClickHandler.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/marker/draw/ClickHandler.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/ClickHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/ClickHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawArrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/DrawArrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawCommand.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/marker/draw/DrawCommand.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/DrawCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/DrawImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawTextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/DrawTextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/ParcelableProperty.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/marker/draw/ParcelableProperty.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/ParcelableProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/ParcelableProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/PrimitiveProperty.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/marker/draw/PrimitiveProperty.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/marker/draw/PrimitiveProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/PrimitiveProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/reality/PhysicalPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/reality/PhysicalPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/render/Camera.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/render/Camera.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/render/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/render/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/render/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/render/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/render/MixVector.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/render/MixVector.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/render/MixVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/render/MixVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/service/IBootStrap.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/service/IBootStrap.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/service/IDataHandlerService.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/service/IDataHandlerService.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/service/IMarkerService.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aidl/lib/service/IMarkerService.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mixare/MixView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/MixView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/.externalToolBuilders/mixare-ant-builder.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/.externalToolBuilders/mixare-ant-builder.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/lint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/lint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/proguard.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/proguard.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/HtmlUnescape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/HtmlUnescape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/MixContextInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/MixContextInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/MixStateInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/MixStateInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/MixUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/MixUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/data/PluginDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/data/PluginDataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/gui/Label.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/gui/Label.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/gui/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/gui/Label.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/gui/PaintScreen.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/gui/PaintScreen.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/gui/PaintScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/gui/PaintScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/gui/ScreenLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/gui/ScreenLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/gui/ScreenObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/gui/ScreenObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/gui/TextObj.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/gui/TextObj.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/gui/TextObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/gui/TextObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/InitialMarkerData.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/InitialMarkerData.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/InitialMarkerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/InitialMarkerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/Marker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/Marker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/PluginMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/PluginMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/ClickHandler.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/ClickHandler.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/ClickHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/ClickHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawArrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/DrawArrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawCommand.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/DrawCommand.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/DrawCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/DrawImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/DrawTextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/DrawTextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/ParcelableProperty.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/ParcelableProperty.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/ParcelableProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/ParcelableProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/PrimitiveProperty.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/marker/draw/PrimitiveProperty.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/marker/draw/PrimitiveProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/marker/draw/PrimitiveProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/reality/PhysicalPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/reality/PhysicalPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/render/Camera.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/render/Camera.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/render/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../plugins/src/org/mixare/lib/render/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/render/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/render/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/render/MixVector.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/render/MixVector.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/render/MixVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/render/MixVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/service/IBootStrap.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/service/IBootStrap.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/service/IDataHandlerService.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/service/IDataHandlerService.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plugins/mixare-library/src/org/mixare/lib/service/IMarkerService.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mixare/lib/service/IMarkerService.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/org/mixare/MixView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/org/mixare/MixView.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/plugin/connection/BootStrapActivityConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/lib/service/IMarkerService.aidl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/plugin/remoteobjects/RemoteMarker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/lib/data/PluginDataProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/aidl/lib/gui/Label.aidl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/aidl/lib/marker/InitialMarkerData.aidl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/aidl/lib/gui/TextObj.aidl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/aidl/lib/gui/PaintScreen.aidl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/MixMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="51" column="40" selection-start-line="51" selection-end-line="51" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FloatMath</find>
+      <find>MapView</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Math</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/mixare/plugin/connection/DataHandlerServiceConnection.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/gui/ScreenLine.java" />
+        <option value="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/render/MixVector.java" />
+        <option value="$PROJECT_DIR$/plugins/mixare-library/src/org/mixare/lib/render/Matrix.java" />
+        <option value="$PROJECT_DIR$/../settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/org/mixare/plugin/connection/BootStrapActivityConnection.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/org/mixare/plugin/remoteobjects/RemoteMarker.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-112" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mixare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mixare" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mixare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mixare" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mixare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mixare" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mixare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mixare" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mixare" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="mixare" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="mixare" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="aidl" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="lib" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="Nexus_5X_API_28_O_" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.20621932" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/aidl" />
+      <recent name="$PROJECT_DIR$/plugins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/mixare" />
+      <recent name="$PROJECT_DIR$/../plugins" />
+      <recent name="$PROJECT_DIR$/plugins" />
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40b19841-627f-4b8c-9f44-5fa644e5db6e" name="Default Changelist" comment="" />
+      <created>1558962111411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558962111411</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-112" y="-1080" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" sideWeight="0.49923897" visible="true" weight="0.28753993" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" sideWeight="0.50076103" side_tool="true" weight="0.32967034" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.30395138" />
+      <window_info anchor="bottom" id="Find" weight="0.3291536" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/plugin/PluginLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/src/org/mixare/lib/render/MixVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3076#3077#0" expanded="true" />
+            <element signature="e#3127#3128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/src/org/mixare/lib/gui/ScreenLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/proguard.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/src/org/mixare/lib/render/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2024#2025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/src/org/mixare/lib/service/IBootStrap.aidl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/build.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/project.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mylibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/lib/gui/ScreenLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/lib/render/MixVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3066#3067#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/lib/render/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/plugin/connection/DataHandlerServiceConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mixare.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../plugins/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../plugins/plugins.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../plugins/project.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/Compatibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../plugins/build.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/plugin/remoteobjects/RemoteDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mixare-library/build.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/mixare-library/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/MixMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="51" column="40" selection-start-line="51" selection-end-line="51" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/plugin/connection/BootStrapActivityConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/lib/service/IMarkerService.aidl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/lib/data/PluginDataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/aidl/lib/marker/InitialMarkerData.aidl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/aidl/lib/gui/TextObj.aidl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/aidl/lib/gui/PaintScreen.aidl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/aidl/lib/gui/Label.aidl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mixare/plugin/remoteobjects/RemoteMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
