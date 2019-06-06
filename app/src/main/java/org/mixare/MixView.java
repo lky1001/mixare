@@ -610,8 +610,8 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 			break;
 		/* Map View */
 		case 3:
-			Intent intent2 = new Intent(MixView.this, MixMap.class);
-			startActivityForResult(intent2, 20);
+//			Intent intent2 = new Intent(MixView.this, MixMap.class);
+//			startActivityForResult(intent2, 20);
 			break;
 		/* zoom level */
 		case 4:
@@ -891,7 +891,7 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 		DataHandler jLayer = getDataView().getDataHandler();
 		if (!getDataView().isFrozen()) {
 			MixListView.originalMarkerList = jLayer.getMarkerList();
-			MixMap.originalMarkerList = jLayer.getMarkerList();
+//			MixMap.originalMarkerList = jLayer.getMarkerList();
 		}
 
 		ArrayList<Marker> searchResults = new ArrayList<Marker>();

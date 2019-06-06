@@ -155,7 +155,7 @@ public class MixListView extends ListActivity {
 		DataHandler jLayer = dataView.getDataHandler();
 		if (!dataView.isFrozen()) {
 			originalMarkerList = jLayer.getMarkerList();
-			MixMap.originalMarkerList = jLayer.getMarkerList();
+			//MixMap.originalMarkerList = jLayer.getMarkerList();
 		}
 		originalMarkerList = jLayer.getMarkerList();
 		searchResultMarkers = new ArrayList<Marker>();
@@ -252,8 +252,8 @@ public class MixListView extends ListActivity {
 	}
 
 	public void createMixMap(){
-		Intent intent2 = new Intent(MixListView.this, MixMap.class); 
-		startActivityForResult(intent2, 20);
+//		Intent intent2 = new Intent(MixListView.this, MixMap.class);
+//		startActivityForResult(intent2, 20);
 	}
 
 	public static String getSearchQuery(){
