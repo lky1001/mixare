@@ -62,6 +62,7 @@ import android.os.Bundle;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import android.provider.Settings;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -79,7 +80,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MixView extends Activity implements SensorEventListener, OnTouchListener {
+public class MixView extends AppCompatActivity implements SensorEventListener, OnTouchListener {
 
 	private CameraSurface camScreen;
 	private AugmentedView augScreen;

@@ -6,6 +6,7 @@ import org.mixare.plugin.PluginType;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.AppComponentFactory;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -14,6 +15,7 @@ import android.content.SharedPreferences.Editor;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.CheckBox;
 
 /**
@@ -25,7 +27,7 @@ import android.widget.CheckBox;
  * 
  * @author A.Egal
  */
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
 	private Context ctx;
 	private final String usePluginsPrefs = "mixareUsePluginsPrefs";
