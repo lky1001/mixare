@@ -37,6 +37,7 @@ import org.mixare.lib.render.MixVector;
 
 import android.graphics.Bitmap;
 import android.location.Location;
+import android.util.Log;
 
 /**
  * The class represents a marker and contains its information.
@@ -140,6 +141,7 @@ public abstract class LocalMarker implements Marker {
 //		isLookingAt = false;
 //		deltaCenter = Float.MAX_VALUE;
 
+		Log.i("calV", cMarker.toString());
 		if (cMarker.z < -1f) {
 			isVisible = true;
 		}

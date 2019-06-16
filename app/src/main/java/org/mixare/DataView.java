@@ -201,6 +201,19 @@ public class DataView {
 		if (state.nextLStatus == MixState.NOT_STARTED && !frozen) {
 			loadDrawLayer();
 			markers = new ArrayList<Marker>();
+			markers.add(new POIMarker("1234",
+					"버거킹",
+					37.498859,
+					127.027522,
+					0,
+					"https://www.google.com/maps/place/37%C2%B029'55.9%22N+127%C2%B001'39.1%22E/@37.498859,127.0253387,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x0:0x0!2zMzfCsDI5JzU1LjUiTiAxMjfCsDAxJzQwLjMiRQ!3b1!8m2!3d37.4987394!4d127.0278497!3m5!1s0x0:0x0!7e2!8m2!3d37.4988585!4d127.0275225",
+					333, Color.RED));
+			if (dataHandler != null) {
+				dataHandler.addMarkers(markers);
+				curFix.setLatitude(37.498704);
+				curFix.setLongitude(127.027770);
+				dataHandler.onLocationChanged(curFix);
+			}
 		}
 		else if (state.nextLStatus == MixState.PROCESSING) {
 			DownloadManager dm = mixContext.getDownloadManager();
